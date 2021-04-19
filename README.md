@@ -22,3 +22,7 @@ My goal here is to learn more about using GraphQL and Typescript with React.
 - ran `yarn watch`
   - watches for changes & compiles js files
 - added `nodemon`
+
+#### Setting Up Our DB Needs
+
+- Added Mikrp Orm `yarn add @mikro-orm/cli @mikro-orm/core @mikro-orm/migrations @mikro-orm/postgresql pg`
