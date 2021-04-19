@@ -1,0 +1,31 @@
+{
+  "name": "forumsite-demo",
+  "version": "1.0.0",
+  "description": "Trying out a GraphQL and Typescript build from Ben Awad. Just finished a basic typescript crash course. I've played wkith GraphQL in Gatsby, but never really got a grasp of it. I feel more confident in my learning ability now and this tutorial looks pretty cool. Here we go!",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "start2": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byronPantoja/forumsite-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byronPantoja/forumsite-demo/issues"
+  },
+  "homepage": "https://github.com/byronPantoja/forumsite-demo#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
